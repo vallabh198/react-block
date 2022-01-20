@@ -36,3 +36,162 @@
     transform: rotate(360deg);
   }
 }
+
+/* Header */
+.header_component{
+  color:#282c34;
+  text-decoration: none;
+  
+  
+}
+
+.the{
+  text-align: center;
+font-size: xx-large;
+
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+  /* top: 85px;
+left: 814px;
+width: 39px; */
+/* height: 60px; */
+transform: matrix(0, -1, 1, 0, 30, 0);
+
+}
+.siren{
+  text-align: left;
+font: normal normal bold 71px/87px Montserrat;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+  /* top: 71px;
+left: 873px;
+width: 190px;
+height: 87px; */
+}
+
+.flex1{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.flex{
+  
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.feature{
+  display: grid;
+  grid-gap: 20px;
+}
+
+.col-md-4{
+  margin: 10px 0px;
+ 
+}
+.row3 {
+  display: grid;
+  grid-gap: 20px;
+ 
+}
+.row0{
+  grid-column: 1;
+  grid-row:3/1;
+  
+  
+}
+.row1{
+  grid-column: 2;
+  grid-row: 1;
+  
+}
+.row2{
+  grid-column: 2;
+  grid-row: 2;
+
+}
+.line{
+  background-color: #F08080;
+  height: 3px;
+  width: 5rem;
+}
+.button1{
+  background-color: transparent;
+  border: transparent;
+  margin: 10px 40px;
+  background-color: #dee2e6 ;
+  border-radius: 5px;
+  width: 15rem;
+  height: 2rem;
+}
+
+.topPostNo {
+  font-size: 35px;
+  color: #e4e1e1;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 60px;
+  height: 70px;
+}
+.Adv{
+  border: 2px solid gray;
+  height: 25rem;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  /* display: flex; */
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select{
+  text-align: center;
+
+  margin: 10px 40px;
+  width: 15rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #dee2e6 ;
+  ;
+}
+img{
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.7s all ease-in-out;
+}
+ img:hover{
+   transform: scale(1.1);
+
+ }
+
+ .mb-3 {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+  margin-bottom: 1rem!important;
+}
+
+
+@media (max-width:800px) {
+  .flex1{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+    
+  }
+  .feature {
+    display: inline-flex;
+    
+   
+  }
+  
+
+  
+  
+  
+}
