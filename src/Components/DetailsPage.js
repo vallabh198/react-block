@@ -11,7 +11,7 @@ export function BlogPost() {
     const [data] = useContext(BlockContext)
     let { id } = useParams();
 
-    const show = data.filter((event) => event.id == id).map((event) => {
+    const show = data.filter((event) => event.id === Number(id)).map((event) => {
         if (event.categoryName === "Fitness") {
             return (<div key={event.id} className='container card mb-3' style={{ maxWidth: '800px' }}>
                 <br /> <h1  >{event.id}.{event.title}</h1> <br /><hr />
